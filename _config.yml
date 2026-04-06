@@ -13,8 +13,8 @@ url:              http://hyde.getpoole.com
 baseurl:          ""
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Aditi Vijayan'
+  url:            https://twitter.com/aditivijayan
 
 paginate:         5
 
@@ -23,3 +23,9 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/aditivijayan
+
+# Collections
+collections:
+  random:
+    output: true
+    permalink: /random/:name/
