@@ -22,9 +22,11 @@
   {% endfor %}
 
   <a class="sidebar-nav-item{% if page.url contains '/research/' %} active{% endif %}" href="{{ site.baseurl }}/research/">Research</a>
+  <a class="sidebar-nav-item{% if page.url contains '/publications/' %} active{% endif %}" href="{{ site.baseurl }}/publications/">Publications</a>
   <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub</a>
-  <a class="sidebar-nav-item" href="https://scholar.google.com/citations?hl=en&user=FrO4x2IAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a>
-  <a class="sidebar-nav-item" href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(((((((author_facet_hier%3A%221%2FVijayan%2C%20A%2FVijayan%2C%20A%22%20OR%20author_facet_hier%3A%221%2FVijayan%2C%20A%2FVijayan%2C%20Aditi%22)%20NOT%20author_facet_hier%3A%220%2FHerner%2C%20J%22)%20NOT%20author_facet_hier%3A%220%2FFaisst%2C%20A%22)%20NOT%20author_facet_hier%3A%220%2FRadhika%2C%20V%22)%20NOT%20author_facet_hier%3A%220%2FAdams%2C%20N%22)%20NOT%20author_facet_hier%3A%220%2FCharrier-Klobas%2C%20J%22)%20NOT%20author_facet_hier%3A%220%2FMarsalek%2C%20J%22%20NOT%20author_facet_hier%3A%220%2FOsterlund%2C%20H%22)&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22vijayan%2Ca%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" rel="noopener">ADS</a>
+  <a class="sidebar-nav-item{% if page.url contains '/random/' %} active{% endif %}" href="{{ site.baseurl }}/random/">Random</a>
+  <!-- <a class="sidebar-nav-item" href="https://scholar.google.com/citations?hl=en&user=FrO4x2IAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a> -->
+  <!-- <a class="sidebar-nav-item" href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq=%7B!type%3Daqp%20v%3D%24fq_author%7D&fq_author=(((((((author_facet_hier%3A%221%2FVijayan%2C%20A%2FVijayan%2C%20A%22%20OR%20author_facet_hier%3A%221%2FVijayan%2C%20A%2FVijayan%2C%20Aditi%22)%20NOT%20author_facet_hier%3A%220%2FHerner%2C%20J%22)%20NOT%20author_facet_hier%3A%220%2FFaisst%2C%20A%22)%20NOT%20author_facet_hier%3A%220%2FRadhika%2C%20V%22)%20NOT%20author_facet_hier%3A%220%2FAdams%2C%20N%22)%20NOT%20author_facet_hier%3A%220%2FCharrier-Klobas%2C%20J%22)%20NOT%20author_facet_hier%3A%220%2FMarsalek%2C%20J%22%20NOT%20author_facet_hier%3A%220%2FOsterlund%2C%20H%22)&fq_database=(database%3Aastronomy%20OR%20database%3Aphysics)&q=%20author%3A%22vijayan%2Ca%22&sort=date%20desc%2C%20bibcode%20desc&p_=0" target="_blank" rel="noopener">ADS</a> -->
 </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
