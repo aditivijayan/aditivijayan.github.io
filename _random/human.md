@@ -48,11 +48,11 @@ Some have stuck to their fields and groups for years while some have bounced fro
 
 Some found mentors and networks that helped them flourish. Some forged their own paths.
 
-What's to say what works. What's to say what success looks like. 
+Who's to say what works. Who's to say what success looks like. 
 
 This is why I don't like one-size-fits-all advice about academia- <i>you're not publishing/conferencing/mentoring/seminar-ing/collaborating enough</i>. It is really difficult to say what enough is. 
 
-Sometimes enough is just being at the right place at the right time, knowing the right people. Sometimes being the best isn't enough.
+Sometimes enough is just being at the right place at the right time, knowing the right people. Sometimes even being the best isn't enough.
 
 Academia is as much a human experience as it is a science endeavour. Our expectations, ambitions, environment, interactions all determine how fulfilling our careers are. While there are courses, advice, online lectures, books for the former, there aren't any for the latter. 
 
